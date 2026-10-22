@@ -15,7 +15,6 @@ phases:
       - npm install
       - echo Running security checks...
       - npm audit --production || true
-      - echo "Secrets Manager integration configured"
 
   build:
     commands:
